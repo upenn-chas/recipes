@@ -1,5 +1,4 @@
-# Drupal Recipe Cookbook
-// S.Groundwater sgrou@upenn.edu, 2025
+# Drupal Recipe Cookbook 2025
 
 # Composer Notes, Required Modules
 
@@ -15,7 +14,7 @@
 - TID Technical Info Doc
 - Transaction
 - Resource
-- Maiing List
+- Mailing List
 - Shift
 - General Event
 
