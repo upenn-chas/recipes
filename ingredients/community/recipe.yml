@@ -1,7 +1,0 @@
-type: 'drupal-recipe'
-name: 'CHAS Community'
-install:
-  - text
-config:
-  import:
-content: {}
