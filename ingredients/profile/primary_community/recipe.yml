@@ -1,0 +1,7 @@
+type: 'drupal-recipe'
+name: 'Profile Primary Community'
+install:
+  - text
+config:
+  import:
+content: {}
