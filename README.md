@@ -1,6 +1,5 @@
-# recipes 2025 
-S.Groundwater sgrou@upenn.edu
-Drupal Recipe Cookbook
+# Drupal Recipe Cookbook
+// S.Groundwater sgrou@upenn.edu, 2025
 
 # Composer Notes, Required Modules
 
@@ -22,7 +21,7 @@ Drupal Recipe Cookbook
 
 # Taxonomy 
 
-- Community (public display)
+- Community (primary reference Taxonomy)
 - Community_Access (access control for Community) 
 
 # Feeds Imports
