@@ -14,7 +14,7 @@
 - TID Technical Info Doc
 - Transaction
 - Resource
-- Mailing List
+- Subscription List
 - Shift
 - General Event
 
