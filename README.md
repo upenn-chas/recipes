@@ -3,7 +3,7 @@
 
 # Composer Notes, Required Modules
 
-# User Profile Fields
+# User Profile Fields:
 
 - Primary Community (Taxonomy Reference to Communities)
 - Position Title
@@ -19,12 +19,12 @@
 - Shift
 - General Event
 
-# Taxonomy 
+# Taxonomy:
 
 - Community (primary reference Taxonomy)
 - Community_Access (access control for Community) 
 
-# Feeds Imports
+# Feeds Imports:
 
 - Communities
 - Locations
@@ -34,12 +34,12 @@
 - Schedules
 - Events
 
-# Workflows (ECA)
+# Workflows: 
 
--  Taxonomy Access Validation
--  Resource Access Validation
+-  Taxonomy Access Validation - ECA
+-  Resource Access Validation - ECA
 
-# Views
+# Views:
 
 - By Position Reporting
 - By Role, Community Reporting
