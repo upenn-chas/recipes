@@ -16,6 +16,7 @@ Drupal Recipe Cookbook
 - TID Technical Info Doc
 - Transaction
 - Resource
+- Maiing List
 - Shift
 - General Event
 
