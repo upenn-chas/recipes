@@ -16,6 +16,8 @@ Drupal Recipe Cookbook
 - TID Technical Info Doc
 - Transaction
 - Resource
+- Shift
+- General Event
 
 # Taxonomy 
 
