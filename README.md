@@ -6,13 +6,15 @@
 
 Syntax for using Terminus with Recipes on Pantheon:
 ```
- terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/position  
+terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/position 
+terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/id_key   
 ```
 
 # User Profile Fields:
 
 - Primary Community (Taxonomy Reference to Communities)
-- [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position)
+- [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position) A Position field for User Profiles.
+- [ID Key](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/id_key) A textexual ID for User Profiles.
 - Roles
 - Subscriptions
 
