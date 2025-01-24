@@ -1,5 +1,9 @@
 type: 'drupal-recipe'
-name: 'Community'
+name: 'Community Taxonomy'
+dependencies:
+  - drupal:media_library
+  - drupal:path
+  - drupal:views
 install:
   - text
 config:
