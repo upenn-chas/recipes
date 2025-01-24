@@ -5,7 +5,9 @@
 "Any field storage that's applicable to multiple content types goes in its own recipe."
 
 # Syntax for using Terminus with Recipes on Pantheon
+```
  terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/position  
+```
 
 # User Profile Fields:
 
