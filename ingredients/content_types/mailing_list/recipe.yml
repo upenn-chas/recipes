@@ -1,0 +1,9 @@
+name: 'Mailing List'
+description: 'A container for Mailing List information.'
+type: 'field'
+
+install:
+  - text
+config:
+  import:
+content: {}
