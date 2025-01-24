@@ -1,0 +1,137 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mailing_list.field_list_email
+    - field.field.node.mailing_list.field_remote_url
+    - field.field.node.mailing_list.field_subscriber_additions
+    - field.field.node.mailing_list.field_subscription_footer
+    - field.field.node.mailing_list.field_subscription_header
+    - node.type.mailing_list
+  module:
+    - feeds_log
+    - node
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: 'Mailing List Migration'
+id: mailing_list_migration
+description: 'A mailing list migration and import Feed.'
+help: 'Imports a CSV list of mailing lists and related fields. '
+import_period: 3600
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: mailing_list
+  langcode: en
+  insert_new: 1
+  update_existing: 0
+  update_non_existent: _keep
+  skip_hash_check: false
+  skip_validation: false
+  skip_validation_types: {  }
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  field_list_email:
+    value: field_list_email
+    label: field_list_email
+    machine_name: field_list_email
+    type: csv
+  field_remote_url:
+    value: field_remote_url
+    label: field_remote_url
+    machine_name: field_remote_url
+    type: csv
+  field_remote_url_text:
+    value: field_remote_url_text
+    label: field_remote_url_text
+    machine_name: field_remote_url_text
+    type: csv
+  field_subscriber_additions:
+    value: field_subscriber_additions
+    label: field_subscriber_additions
+    machine_name: field_subscriber_additions
+    type: csv
+  field_subscription_footer:
+    value: field_subscription_footer
+    label: field_subscription_footer
+    machine_name: field_subscription_footer
+    type: csv
+  field_subscription_header:
+    value: field_subscription_header
+    label: field_subscription_header
+    machine_name: field_subscription_header
+    type: blank
+  title:
+    value: title
+    label: title
+    machine_name: title
+    type: csv
+mappings:
+  -
+    target: field_list_email
+    map:
+      value: field_list_email
+    settings:
+      language: null
+      defuse: false
+    unique: {  }
+  -
+    target: field_remote_url
+    map:
+      uri: field_remote_url
+      title: field_remote_url_text
+    settings:
+      language: null
+  -
+    target: field_subscriber_additions
+    map:
+      value: field_subscriber_additions
+    settings:
+      language: null
+  -
+    target: field_subscription_footer
+    map:
+      value: field_subscription_footer
+    settings:
+      language: null
+  -
+    target: field_subscription_header
+    map:
+      value: field_subscription_header
+    settings:
+      language: null
+  -
+    target: title
+    map:
+      value: title
+    settings:
+      language: null
+    unique: {  }
