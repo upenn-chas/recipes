@@ -1,5 +1,5 @@
 type: 'drupal-recipe'
-name: 'CHAS Community'
+name: 'Community'
 install:
   - text
 config:
