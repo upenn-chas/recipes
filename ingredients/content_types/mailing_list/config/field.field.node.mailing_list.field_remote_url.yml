@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_remote_url
+    - node.type.mailing_list
+  module:
+    - link
+id: node.mailing_list.field_remote_url
+field_name: field_remote_url
+entity_type: node
+bundle: mailing_list
+label: 'Remote URL'
+description: 'A remote URL link.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link
