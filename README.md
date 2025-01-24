@@ -25,7 +25,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - TID Technical Info Doc
 - Transaction
 - Resource
-- Mailing List
+- [Mailing List](https://github.com/upenn-chas/recipes/tree/main/ingredients/content_types/mailing_list)
   - Subscription Header field_subscription_header
   - Subscriber Additions field_subscriber_additions
   - Subscription Footer field_subscription_footer
