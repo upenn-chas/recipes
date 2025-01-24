@@ -1,0 +1,9 @@
+name: 'id_key'
+description: 'A textual account key for system compatibility.'
+type: 'field'
+
+install:
+  - text
+config:
+  import:
+content: {}
