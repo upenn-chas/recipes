@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_id_key
+  module:
+    - user
+id: user.user.field_id_key
+field_name: field_id_key
+entity_type: user
+bundle: user
+label: id_key
+description: 'A textual account key is used for system compatibility. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
