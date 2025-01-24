@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_8digit
+  module:
+    - disable_field
+    - user
+third_party_settings:
+  disable_field:
+    add_disable: none
+    edit_disable: none
+id: user.user.field_8digit
+field_name: field_8digit
+entity_type: user
+bundle: user
+label: '8 Digit'
+description: 'An 8 digit account key for user profile field subscriptions.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
