@@ -15,7 +15,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Primary Community (Taxonomy Reference to Communities)
 - [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position) A Position field for User Profiles.
 - [ID Key](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/id_key) A textexual ID for User Profiles.
-- [8 Digit](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/8digit) An 8 digit account key for user profile field subscriptions.
+- [8 Digit](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/8digit) An 8 digit account key for User Profile field subscriptions.
 - Subscriptions
 
 # Roles:
