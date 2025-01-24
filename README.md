@@ -1,6 +1,8 @@
 # Drupal Recipe Cookbook 2025
 
 # Composer Notes, Required Modules
+[Per recipe_author_guide.md](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/recipe_author_guide.md)
+"Any field storage that's applicable to multiple content types goes in its own recipe."
 
 # User Profile Fields:
 
