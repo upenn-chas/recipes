@@ -1,0 +1,9 @@
+name: 'mailing_list_migration'
+description: 'A Feeds importer for Mailing Lists.'
+type: 'feeds'
+
+install:
+  - text
+config:
+  import:
+content: {}
