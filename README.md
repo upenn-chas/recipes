@@ -26,10 +26,10 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Transaction
 - Resource
 - Subscription List
-  -- Subscription Header
-  -- Subscribers
-  -- Subscription Footer
-  -- Mailing List
+  - Subscription Header
+  - Subscribers
+  - Subscription Footer
+  - Mailing List
 - Shift
 - General Event
 
