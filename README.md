@@ -25,11 +25,11 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - TID Technical Info Doc
 - Transaction
 - Resource
-- Subscription List
+- Mailing List
   - Subscription Header
   - Subscribers
   - Subscription Footer
-  - Mailing List
+  - List Email
 - Shift
 - General Event
 
