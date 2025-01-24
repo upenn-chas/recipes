@@ -1,1 +1,8 @@
 
+type: 'drupal-recipe'
+name: 'Mailing List'
+install:
+  - text
+config:
+  import:
+content: {}
