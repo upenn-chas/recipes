@@ -44,6 +44,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Communities
 - Locations
 - Resources
+- Mailing List
 - Roles
 - Groups
 - Schedules
