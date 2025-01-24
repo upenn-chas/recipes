@@ -1,5 +1,7 @@
-type: 'drupal-recipe'
-name: 'Profile Position'
+name: 'User Position'
+description: 'A user profile field for Position.'
+type: 'field'
+
 install:
   - text
 config:
