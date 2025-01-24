@@ -16,7 +16,8 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position) A Position field for User Profiles.
 - [ID Key](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/id_key) A text ID for User Profiles.
 - [8 Digit](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/8digit) An 8 digit account key for User Profile field subscriptions.
-- Subscriptions
+- Mailing List Subscriber (Reference: Mailing List Taxonomy)
+- Mailing List Sender (Reference: Mailing List Taxonomy)
 
 # Roles:
 
@@ -26,6 +27,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Transaction
 - Resource
 - [Mailing List](https://github.com/upenn-chas/recipes/tree/main/ingredients/content_types/mailing_list)
+  - Mailing List (Reference: Mailing List Taxonomy)
   - Subscription Header field_subscription_header
   - Subscriber Additions field_subscriber_additions
   - Subscription Footer field_subscription_footer
@@ -36,6 +38,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 
 # Taxonomy:
 
+- Mailing List Taxonomy
 - Community (primary reference Taxonomy)
 - Community_Access (access control for Community) 
 
@@ -44,6 +47,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Communities
 - Locations
 - Resources
+- Mailing List Taxonomy
 - Mailing List
 - Roles
 - Groups
