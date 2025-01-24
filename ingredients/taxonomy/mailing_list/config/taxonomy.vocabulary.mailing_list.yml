@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Mailing List'
+vid: mailing_list
+description: 'A list of Mailing Lists'
+weight: 0
+new_revision: false
