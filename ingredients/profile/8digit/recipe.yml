@@ -1,0 +1,9 @@
+name: '8 Digit Account Key'
+description: 'An 8 digit account key for user profile field subscriptions.'
+type: 'field'
+
+install:
+  - text
+config:
+  import:
+content: {}
