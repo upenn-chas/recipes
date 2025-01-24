@@ -4,6 +4,9 @@
 [Per recipe_author_guide.md](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/recipe_author_guide.md)
 "Any field storage that's applicable to multiple content types goes in its own recipe."
 
+# Syntax for using Terminus with Recipes on Pantheon
+ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/position  
+
 # User Profile Fields:
 
 - Primary Community (Taxonomy Reference to Communities)
