@@ -12,7 +12,7 @@ Syntax for using Terminus with Recipes on Pantheon:
 # User Profile Fields:
 
 - Primary Community (Taxonomy Reference to Communities)
-- Position Title
+- [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position)
 - Roles
 - Subscriptions
 
