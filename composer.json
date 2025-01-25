@@ -1,7 +1,7 @@
 {
     "name": "upenn-chas/drupal-recipe-cookbook",
     "description": "A Recipe Cookbook for Drupal systems.",
-    "type": ""drupal-recipe",
+    "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "keywords": ["drupal", "recipe", "cookbook"],
     "require": {
