@@ -4,12 +4,11 @@ dependencies:
   module:
     - file
     - image
+    - media
     - taxonomy
-_core:
-  default_config_hash: fP4x1ZmFVWNMdoV3p3EJyIeyDsd4JMJ7Jb6hgoB69-Q
 id: taxonomy_term.field_banner_landscape
 field_name: field_banner_landscape
-entity_type: taxonomy_term
+entity_type: media
 type: image
 settings:
   target_type: file
