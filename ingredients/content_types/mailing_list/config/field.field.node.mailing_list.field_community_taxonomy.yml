@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_community_taxonomy
+    - node.type.mailing_list
+    - taxonomy.vocabulary.community
+id: node.mailing_list.field_community_taxonomy
+field_name: field_community_taxonomy
+entity_type: node
+bundle: mailing_list
+label: 'Community Taxonomy'
+description: 'A reference link between the Mailing List Content-Type and the Community Taxonomy Vocabulary.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      community: community
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
