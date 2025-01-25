@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: Community
-vid: community
-description: 'A grouping, department, neighborhood, or community'
-weight: 0
-new_revision: false
