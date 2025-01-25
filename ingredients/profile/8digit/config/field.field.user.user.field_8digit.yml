@@ -3,10 +3,6 @@ status: true
 dependencies:
   module:
     - user
-third_party_settings:
-  disable_field:
-    add_disable: none
-    edit_disable: none
 id: user.user.field_8digit
 field_name: field_8digit
 entity_type: user
