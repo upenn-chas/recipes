@@ -9,7 +9,7 @@ dependencies:
 id: taxonomy_term.community.field_community_logo_icon
 field_name: field_community_logo_icon
 entity_type: taxonomy_term
-bundle: rsvp_department
+bundle: community
 label: 'Community Logo Icon'
 description: ''
 required: false
