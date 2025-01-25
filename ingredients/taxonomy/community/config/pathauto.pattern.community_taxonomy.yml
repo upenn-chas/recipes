@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: community_taxonomy
+label: 'Community Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'about/[term:field_community]'
+selection_criteria:
+  83820be3-f5a2-441c-ac92-ab8f91704968:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 83820be3-f5a2-441c-ac92-ab8f91704968
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      community: community
+selection_logic: and
+weight: -5
+relationships: {  }
