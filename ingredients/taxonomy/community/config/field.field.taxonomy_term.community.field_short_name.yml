@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_short_name
+    - taxonomy.vocabulary.community
+id: taxonomy_term.community.field_short_name
+field_name: field_short_name
+entity_type: taxonomy_term
+bundle: community
+label: 'Short Name'
+description: 'A short name text field for use as a token in URLs and with display filtering. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
