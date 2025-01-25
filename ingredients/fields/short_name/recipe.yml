@@ -1,4 +1,3 @@
-
 name: 'Short Name'
 description: 'A short name value used for tokens filters and paths.'
 type: 'field'
