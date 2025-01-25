@@ -1,1 +1,8 @@
-
+name: 'Banner Landscape'
+description: 'A banner landscape image field.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
