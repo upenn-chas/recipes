@@ -10,5 +10,7 @@ field.storage.taxonomy_term.field_short_name.yml
 taxonomy.vocabulary.community.yml
 ```
 
-Cleanup:
+# Cleanup:
+```
 drush config:delete field.storage.taxonomy_term.field_banner_landscape
+```
