@@ -14,4 +14,5 @@ taxonomy.vocabulary.community.yml
 ```
 drush config:delete field.storage.taxonomy_term.field_banner_landscape
 drush config:delete field.storage.taxonomy_term.field_banner_portrait
+drush config:delete field.field.taxonomy_term.community.field_banner_landscape
 ```
