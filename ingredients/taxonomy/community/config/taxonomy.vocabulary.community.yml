@@ -1,1 +1,19 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Community
+vid: community
+description: 'A grouping, department, neighborhood, or community'
+weight: 0
+new_revision: false
+sgrou@CHAS-DEV1-iMAC config-dev-gluebox-pantheonsite-io-2025-01-25-14-15 % cat taxonomy.vocabulary.community.yml
+uuid: 39673391-b98b-4199-b48c-094e50941f7c
+langcode: en
+status: true
+dependencies: {  }
+name: Community
+vid: community
+description: 'A grouping, department, neighborhood, or community'
+weight: 0
+new_revision: false
 
