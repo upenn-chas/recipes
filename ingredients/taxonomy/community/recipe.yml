@@ -4,6 +4,7 @@ dependencies:
   - drupal:media_library
   - drupal:path
   - drupal:views
+  - drupal:color_field
 install:
   - text
 config:
