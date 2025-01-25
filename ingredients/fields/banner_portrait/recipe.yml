@@ -1,0 +1,8 @@
+name: 'Banner Portrait'
+description: 'A banner portrait image field.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
