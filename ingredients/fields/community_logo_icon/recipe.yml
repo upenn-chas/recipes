@@ -1,1 +1,8 @@
-
+name: 'Community Logo Icon'
+description: 'The Community Logo Icon can be used along side the Community Logo Text.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
