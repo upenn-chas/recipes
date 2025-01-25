@@ -3,13 +3,7 @@
     "description": "A Recipe Cookbook for Drupal systems.",
     "type": "library",
     "license": "GPL-2.0-or-later",
-    "keywords": ["drupal", "recipe", "cookbook"],
-    "homepage": "https://www.drupal.org/u/sgroundwater",
-    "authors": [
-        {
-            "name": "S. Groundwater",
-            "homepage": "https://www.drupal.org/u/sgroundwater"
-        }
+    "keywords": ["drupal", "recipe", "cookbook"]
     ],
     "require": {
         "php": ">=8.3",
