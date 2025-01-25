@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_banner_portrait
     - taxonomy.vocabulary.community
   module:
     - image
