@@ -6,7 +6,8 @@ field.field.taxonomy_term.community.field_banner_landscape.yml
 field.field.taxonomy_term.community.field_banner_portrait.yml
 field.field.taxonomy_term.community.field_short_name.yml
 
-field.storage.node.field_community_taxonomy.yml
+field.storage.taxonomy_term.field_banner_landscape.yml
+field.storage.taxonomy_term.field_banner_portrait.yml
 field.storage.taxonomy_term.field_short_name.yml
 
 taxonomy.vocabulary.community.yml
