@@ -39,7 +39,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 # Taxonomy:
 
 - Mailing List Taxonomy
-- Community (primary reference Taxonomy)
+- [Community](https://github.com/upenn-chas/recipes/tree/main/ingredients/taxonomy/community) (primary reference Taxonomy)
 - Community_Access (access control for Community) 
 
 # Feeds Imports:
