@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.storage.user.field_8digit
   module:
     - user
 third_party_settings:
