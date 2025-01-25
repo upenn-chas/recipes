@@ -1,7 +1,6 @@
 ```
 core.entity_form_display.taxonomy_term.community.default.yml
 core.entity_view_display.taxonomy_term.community.default.yml
-field.field.node.mailing_list.field_community_taxonomy.yml
 field.field.taxonomy_term.community.field_banner_landscape.yml
 field.field.taxonomy_term.community.field_banner_portrait.yml
 field.field.taxonomy_term.community.field_short_name.yml
