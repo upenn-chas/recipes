@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_highlight_color
+    - taxonomy.vocabulary.community
+  module:
+    - color_field
+id: taxonomy_term.community.field_highlight_color
+field_name: field_highlight_color
+entity_type: taxonomy_term
+bundle: community
+label: 'Highlight Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type
