@@ -8,7 +8,7 @@ dependencies:
     - taxonomy
 id: taxonomy_term.field_banner_landscape
 field_name: field_banner_landscape
-entity_type: media
+entity_type: taxonomy_term
 type: image
 settings:
   target_type: file
