@@ -1,1 +1,8 @@
-
+name: 'Community Type'
+description: 'A reference field value used for tokens filters and paths.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
