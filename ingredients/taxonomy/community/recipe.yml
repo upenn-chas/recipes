@@ -2,7 +2,6 @@ type: 'drupal-recipe'
 name: 'Community Taxonomy'
 install:
   - text
-  - image
 config:
   import:
 content: {}
