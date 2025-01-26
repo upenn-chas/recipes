@@ -3,6 +3,7 @@ description: 'A color token used in content display.'
 type: 'field'
 install:
   - text
+  - color_field
 config:
   import:
 content: {}
