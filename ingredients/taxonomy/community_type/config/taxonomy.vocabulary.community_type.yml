@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Community Type'
+vid: community_type
+description: 'Classification reference field for use by the Community Taxonomy. Examples: department, adjunct_department, neighborhood, program, business, Etc.'
+weight: 0
+new_revision: false
