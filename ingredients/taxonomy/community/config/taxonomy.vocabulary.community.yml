@@ -3,6 +3,6 @@ status: true
 dependencies: {  }
 name: Community
 vid: community
-description: 'A grouping, department, neighborhood, or community'
+description: 'A grouping of sections within the website.'
 weight: 0
 new_revision: false
