@@ -32,21 +32,21 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
   - mailing_list_migration
 
 ## fields
- - banner_landscape
- - banner_portrait
- - community_logo_icon
- - community_logo_text
- - community_type
- - highlight_color
- - short_name
+ - [banner_landscape](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/banner_landscape/recipe.yml)
+ - [banner_portrait](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/banner_portrait/recipe.yml)
+ - [community_logo_icon](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_logo_icon/recipe.yml)
+ - [community_logo_text](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_logo_text/recipe.yml)
+ - [community_type](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_type/recipe.yml)
+ - [highlight_color](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/highlight_color/recipe.yml)
+ - [short_name](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/short_name/recipe.yml)
 
 ## profile
- - 8digit
- - id_key
- - mailing_list_sender
- - mailing_list_subscriber
- - position
- - primary_community
+ - [8digit](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/8digit/recipe.yml)
+ - [id_key](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/id_key/recipe.yml)
+ - [mailing_list_sender](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/mailing_list_sender/recipe.yml) - TODO
+ - [mailing_list_subscriber](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/mailing_list_subscriber/recipe.yml) - TODO
+ - [position](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/position/recipe.yml)
+ - [primary_community](https://github.com/upenn-chas/recipes/blob/main/ingredients/profile/primary_community/recipe.yml)
 
 ## roles:
 
