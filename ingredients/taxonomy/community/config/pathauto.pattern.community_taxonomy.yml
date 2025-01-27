@@ -3,15 +3,17 @@ status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: q3Ur2SSB3f9DuNvDL02wkPh8RubgzjiDWMPMB65YsAA
 id: community_taxonomy
 label: 'Community Taxonomy'
 type: 'canonical_entities:taxonomy_term'
-pattern: '/about/[term:field_short_name]'
+pattern: '/[term:field_community_type:entity:field_short_name]/[term:field_short_name]'
 selection_criteria:
-  b46a27fa-dbb6-4b9c-b240-4b1218e1af99:
+  f973e716-8865-4728-aded-6aee2b9f6ba2:
     id: 'entity_bundle:taxonomy_term'
     negate: false
-    uuid: b46a27fa-dbb6-4b9c-b240-4b1218e1af99
+    uuid: f973e716-8865-4728-aded-6aee2b9f6ba2
     context_mapping:
       taxonomy_term: taxonomy_term
     bundles:
