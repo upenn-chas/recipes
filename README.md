@@ -62,13 +62,6 @@ Roles can be managed through a series of Drush shell scripts.
 - [community](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/community/recipe.yml)
 - [community_type](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/community_type/recipe.yml)
 - [mailing_list_migration](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/mailing_list_migration/recipe.yml)
-### TODO:
-- Locations
-- Resources
-- Mailing List Taxonomy
-- Mailing List
-- Schedules
-- Events
 
 ## eca_models
 
