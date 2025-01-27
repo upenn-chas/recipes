@@ -64,8 +64,6 @@ Roles can be managed through a series of Drush shell scripts.
 - Resources
 - Mailing List Taxonomy
 - Mailing List
-- Roles
-- Groups
 - Schedules
 - Events
 
