@@ -54,6 +54,7 @@ Roles can be managed through a series of Drush shell scripts.
 
 ## taxonomy
  - community
+  -- [pathauto] (https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community/config/pathauto.pattern.community_taxonomy.yml)
  - community_type
  - mailing_list
 
