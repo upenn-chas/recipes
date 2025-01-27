@@ -43,10 +43,6 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 ## profile
   - Update field.field.user.user.field_8digit.yml
 
-## taxonomy
-
-Update pathauto.pattern.community_taxonomy.yml
-
 ## views
   - community_sections
 
