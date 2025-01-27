@@ -1,5 +1,5 @@
-name: 'community taxonomy feed'
-description: 'A Feeds importer for Community Taxonomoy.'
+name: 'community feed'
+description: 'A Feeds importer for the Community Taxonomoy.'
 type: 'feeds'
 
 install:
