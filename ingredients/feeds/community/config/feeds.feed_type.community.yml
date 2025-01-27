@@ -1,0 +1,82 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.community.field_short_name
+    - taxonomy.vocabulary.community
+  module:
+    - feeds_log
+    - taxonomy
+third_party_settings:
+  feeds_log:
+    status: true
+    operations:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+      cleaned: cleaned
+    items:
+      created: created
+      updated: updated
+      deleted: deleted
+      skipped: skipped
+      failed: failed
+    source: true
+label: Community
+id: community
+description: 'Community import Feed'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:taxonomy_term'
+processor_configuration:
+  values:
+    vid: community
+  langcode: en
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  skip_validation: false
+  skip_validation_types: {  }
+  authorize: false
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  name:
+    value: name
+    label: name
+    machine_name: name
+    type: blank
+  short_name:
+    value: short_name
+    label: short_name
+    machine_name: short_name
+    type: csv
+mappings:
+  -
+    target: name
+    map:
+      value: name
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_short_name
+    map:
+      value: short_name
+    settings:
+      language: null
+    unique: {  }
