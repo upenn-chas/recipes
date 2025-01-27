@@ -3,12 +3,42 @@
 # Composer Notes, Required Modules
 [Per recipe_author_guide.md](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/recipe_author_guide.md)
 "Any field storage that's applicable to multiple content types goes in its own recipe."
+TODO - Add Serialized CSV / Views Export Data modules to composer.json template - needed for Views recipes.
 
 Syntax for using Terminus with Recipes on Pantheon:
 ```
 terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/position 
 terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/id_key   
 ```
+
+## Ingerdients
+
+# content_types
+  - mailing list
+
+# feeds
+  - community
+  - community_type
+  - mailing_list_migration
+
+# fields
+ - banner_landscape
+ - banner_portrait
+ - community_logo_icon
+ - community_logo_text
+ - community_type
+ - highlight_color
+ - short_name
+
+# profile
+  - Update field.field.user.user.field_8digit.yml
+
+# taxonomy
+
+Update pathauto.pattern.community_taxonomy.yml
+
+# views
+  - community_sections
 
 # User Profile Fields:
 
@@ -20,6 +50,8 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Mailing List Sender (Reference: Mailing List Taxonomy)
 
 # Roles:
+
+Roles will probably be managed through a series of Drush shell scripts."
 
 # ContentTypes:
 
