@@ -41,12 +41,6 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
  - short_name
 
 ## profile
-  - Update field.field.user.user.field_8digit.yml
-
-## views
-  - community_sections
-
-## User Profile Fields
  - 8digit
  - id_key
  - mailing_list_sender
@@ -54,16 +48,16 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
  - position
  - primary_community
 
-## Roles:
+## roles:
 
 Roles can be managed through a series of Drush shell scripts.
 
-## Taxonomy
+## taxonomy
  - community
  - community_type
  - mailing_list
 
-## Feeds Imports
+## feeds
 
 - Communities
 - Locations
@@ -75,13 +69,13 @@ Roles can be managed through a series of Drush shell scripts.
 - Schedules
 - Events
 
-## Workflows: 
+## eca_models
 
 -  Taxonomy Access Validation - ECA
 -  Resource Access Validation - ECA
 
-## Views:
-
+## views
+- [community_sections](https://github.com/upenn-chas/recipes/tree/main/ingredients/views/community_sections) 
 - By Position Reporting
 - By Role, Community Reporting
 - Calendar Context URL Path Filter
