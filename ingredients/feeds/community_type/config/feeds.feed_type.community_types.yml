@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.community_type.field_short_name
     - taxonomy.vocabulary.community_type
   module:
     - feeds_log
@@ -23,6 +24,8 @@ third_party_settings:
       skipped: skipped
       failed: failed
     source: true
+_core:
+  default_config_hash: k0kY8fWog0D-kJZo9xNV8DVz2Mik0VUGY4h8JzRcCCk
 label: 'Community Types'
 id: community_types
 description: 'Community Type import Feed'
@@ -69,6 +72,13 @@ mappings:
     target: name
     map:
       value: name
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_short_name
+    map:
+      value: short_name
     settings:
       language: null
     unique: {  }
