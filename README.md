@@ -53,7 +53,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 Roles can be managed through a series of Drush shell scripts.
 
 ## taxonomy
- - community
+ - [community](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community/recipe.yml)
   -- [pathauto](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community/config/pathauto.pattern.community_taxonomy.yml)
  - community_type
  - mailing_list
