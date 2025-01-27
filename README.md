@@ -11,17 +11,17 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/id_key   
 ```
 
-## Ingredients
+# Ingredients
 
-# content_types
+## content_types
   - mailing list
 
-# feeds
+## feeds
   - community
   - community_type
   - mailing_list_migration
 
-# fields
+## fields
  - banner_landscape
  - banner_portrait
  - community_logo_icon
@@ -30,17 +30,17 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
  - highlight_color
  - short_name
 
-# profile
+## profile
   - Update field.field.user.user.field_8digit.yml
 
-# taxonomy
+## taxonomy
 
 Update pathauto.pattern.community_taxonomy.yml
 
-# views
+## views
   - community_sections
 
-# User Profile Fields:
+## User Profile Fields:
 
 - Primary Community (Taxonomy Reference to Communities)
 - [Position](https://github.com/upenn-chas/recipes/tree/main/ingredients/profile/position) A Position field for User Profiles.
@@ -49,11 +49,11 @@ Update pathauto.pattern.community_taxonomy.yml
 - Mailing List Subscriber (Reference: Mailing List Taxonomy)
 - Mailing List Sender (Reference: Mailing List Taxonomy)
 
-# Roles:
+## Roles:
 
 Roles will probably be managed through a series of Drush shell scripts."
 
-# ContentTypes:
+## ContentTypes:
 
 - TID Technical Info Doc
 - Transaction
@@ -68,13 +68,13 @@ Roles will probably be managed through a series of Drush shell scripts."
 - Shift
 - General Event
 
-# Taxonomy:
+## Taxonomy:
 
 - Mailing List Taxonomy
 - [Community](https://github.com/upenn-chas/recipes/tree/main/ingredients/taxonomy/community) (primary reference Taxonomy)
 - Community_Access (access control for Community) 
 
-# Feeds Imports:
+## Feeds Imports:
 
 - Communities
 - Locations
@@ -86,12 +86,12 @@ Roles will probably be managed through a series of Drush shell scripts."
 - Schedules
 - Events
 
-# Workflows: 
+## Workflows: 
 
 -  Taxonomy Access Validation - ECA
 -  Resource Access Validation - ECA
 
-# Views:
+## Views:
 
 - By Position Reporting
 - By Role, Community Reporting
