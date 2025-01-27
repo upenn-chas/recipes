@@ -26,7 +26,7 @@ third_party_settings:
     source: true
 label: Community
 id: community
-description: 'Community import Feed'
+description: 'Community Taxonomy Import Feed'
 help: ''
 import_period: -1
 fetcher: upload
