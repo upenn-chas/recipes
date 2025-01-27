@@ -1,6 +1,6 @@
 
-name: 'Community Sections'
-description: 'A report of Community Section taxonomy terms.'
+name: 'Community Section View'
+description: 'A report view of the Community Section Taxonomy.'
 type: 'field'
 install:
   - text
