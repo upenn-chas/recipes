@@ -1,0 +1,6 @@
+id: community_sections
+shortcut_set: community_reporting
+link:
+  uri: internal:/admin/community-section
+  title: Configuration
+  options: {  }
