@@ -26,11 +26,6 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 - Shift
 - General Event
 
-## feeds
-  - community
-  - community_type
-  - mailing_list_migration
-
 ## fields
  - [banner_landscape](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/banner_landscape/recipe.yml)
  - [banner_portrait](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/banner_portrait/recipe.yml)
