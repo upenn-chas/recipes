@@ -1,1 +1,9 @@
 
+name: 'Community Sections'
+description: 'A report of Community Section taxonomy terms.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
