@@ -1,1 +1,9 @@
+name: 'community taxonomy'
+description: 'A Feeds importer for Community Taxonomoy.'
+type: 'feeds'
 
+install:
+  - text
+config:
+  import:
+content: {}
