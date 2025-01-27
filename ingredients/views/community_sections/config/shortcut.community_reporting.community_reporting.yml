@@ -1,0 +1,6 @@
+id: my_custom_shortcut
+shortcut_set: community_reporting
+link:
+  uri: internal:/admin/config
+  title: Configuration
+  options: {  }
