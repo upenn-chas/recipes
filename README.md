@@ -55,12 +55,14 @@ Roles can be managed through a series of Drush shell scripts.
 ## taxonomy
  - [community](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community/recipe.yml)
   -- [pathauto](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community/config/pathauto.pattern.community_taxonomy.yml)
- - community_type
- - mailing_list
+ - [community_type](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/community_type/recipe.yml)
+ - [mailing_list](https://github.com/upenn-chas/recipes/blob/main/ingredients/taxonomy/mailing_list/recipe.yml)
 
 ## feeds
-
-- Communities
+- [community](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/community/recipe.yml)
+- [community_type](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/community_type/recipe.yml)
+- [mailing_list_migration](https://github.com/upenn-chas/recipes/blob/main/ingredients/feeds/mailing_list_migration/recipe.yml)
+### TODO:
 - Locations
 - Resources
 - Mailing List Taxonomy
