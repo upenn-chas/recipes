@@ -11,7 +11,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
 terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients/profile/id_key   
 ```
 
-## Ingerdients
+## Ingredients
 
 # content_types
   - mailing list
