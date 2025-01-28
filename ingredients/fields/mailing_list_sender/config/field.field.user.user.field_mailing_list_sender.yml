@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.user.field_mailing_list_sender
     - taxonomy.vocabulary.mailing_list
-  module:
-    - user
 id: user.user.field_mailing_list_sender
 field_name: field_mailing_list_sender
 entity_type: user
