@@ -1,1 +1,21 @@
-
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: mailing_list
+label: 'Mailing List'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/mailing_list/[term:field_short_name]'
+selection_criteria:
+  0a09a765-2c23-465f-aaf5-0775b5ad8d07:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 0a09a765-2c23-465f-aaf5-0775b5ad8d07
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      mailing_list: mailing_list
+selection_logic: and
+weight: -5
+relationships: {  }
