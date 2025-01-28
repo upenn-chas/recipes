@@ -1,1 +1,8 @@
-
+name: 'Mailing List Sunscribers - Taxonomy Reference'
+description: 'A reference field of Subscribers to the Mailing Lists Taxonomy.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
