@@ -1,1 +1,9 @@
+name: 'mailing list feed'
+description: 'A Feeds importer for a Mailing List Taxonomoy.'
+type: 'feeds'
 
+install:
+  - text
+config:
+  import:
+content: {}
