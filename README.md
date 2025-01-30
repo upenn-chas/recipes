@@ -31,6 +31,7 @@ terminus drush -- recipe ../vendor/upenn-chas/drupal-recipe-cookbook/ingredients
  - [banner_portrait](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/banner_portrait/recipe.yml)
  - [community_logo_icon](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_logo_icon/recipe.yml)
  - [community_logo_text](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_logo_text/recipe.yml)
+ - [community_reference](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_reference/recipe.yml)
  - [community_type](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/community_type/recipe.yml)
  - [highlight_color](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/highlight_color/recipe.yml)
  - [short_name](https://github.com/upenn-chas/recipes/blob/main/ingredients/fields/short_name/recipe.yml)
