@@ -1,1 +1,8 @@
-
+name: 'Community Taxonomy Reference'
+description: 'A reference field of the Community Taxonomy.'
+type: 'field'
+install:
+  - text
+config:
+  import:
+content: {}
